@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .row {
+        display: flex;
+      }
+      .clicked {
+        border: 2px red solid;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="addByJs"></button><button class="addByJs"></button
+    ><button class="addByJs"></button><button class="addByJs"></button
+    ><button class="addByJs"></button><button class="addByJs"></button
+    ><button class="addByJs"></button><button class="addByJs"></button
+    ><button class="addByJs"></button><button class="addByJs"></button>
+    <h1>THIS IS THE TITLE</h1>
+
+    <div>
+        <input type="text" onkeyup="clickHereForEvent(event)" />
+        <button onclick="searchSomething(event)"></button>
+    </div>
+    <!-- <input type="number" onkeyup="clickHereForEvent(event)"> -->
+    <input type="color" onchange="handleColor(event)" />
+    <!-- <input type="date" onchange="clickHereForEvent(event)"> -->
+
+    <!-- <button onclick="clickHereForEvent(event)">PLEASE CLICK ME</button> -->
+    <div class="row">
+      <ul class="shop"></ul>
+      <div>
+        <h2>Cart</h2>
+        <ul class="cart"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
